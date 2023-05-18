@@ -9,13 +9,20 @@
 @layer base {
   html {
     font-family: 'Fira Sans', sans-serif;
-    background-color: '#F8F8F8';
+    background-color: #F8F8F8;
   }
 }
 
 @layer components {
-  .list-item:hover {
-    cursor: pointer;
-    color: #86A6DF;
+  .list-items:hover {
+    @apply cursor-pointer text-project_yellow
+  }
+
+  .section-bar {
+    @apply w-full px-4 py-2 text-lg font-bold bg-project_secondary text-project_white
+  }
+
+  .phase-title {
+    @apply text-lg font-semibold
   }
 }

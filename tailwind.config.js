@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./*.html","./*.js"],
+  content: ["./*.html", "./*.js"],
   theme: {
     extend: {
       colors: {
-        project_primary: "#324E7B",
-        project_secondary: "#86A6DF",
+        project_primary: "#25316D",
+        project_secondary: "#5F6F94",
         project_tertiary: "#5068A9",
-        project_white: "#F8F8F8",
+        project_white: "#97D2EC",
+        project_yellow: "#FEF5AC",
       },
     },
   },
