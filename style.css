@@ -25,4 +25,12 @@
   .phase-title {
     @apply text-lg font-semibold pb-8
   }
+
+  .social-icon {
+    @apply flex items-center justify-center p-2 border-2 rounded-full border-project_tertiary
+  }
+
+  .social-icon:hover {
+    @apply border-project_yellow text-project_yellow cursor-pointer
+  }
 }
