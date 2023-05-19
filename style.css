@@ -23,6 +23,6 @@
   }
 
   .phase-title {
-    @apply text-lg font-semibold
+    @apply text-lg font-semibold pb-8
   }
 }
