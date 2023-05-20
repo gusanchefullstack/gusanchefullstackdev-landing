@@ -11,12 +11,12 @@
     ></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
   </head>
-  <body class="w-full">
+  <body>
     <div class="px-8">
       <header
         class="flex items-center justify-between w-full px-4 py-2 bg-project_primary text-project_white"
       >
-        <div class="flex items-center justify-start w-2/5 space-x-4">
+        <div class="flex items-center justify-start space-x-4 basis-4/12">
           <div>
             <i class="fa-solid fa-layer-group fa-2xl text-project_yellow"></i>
           </div>
@@ -27,7 +27,7 @@
             </p>
           </div>
         </div>
-        <div class="w-3/5">
+        <div class="basis-8/12">
           <ul class="flex space-x-4 text-lg font-semibold justify-evenly">
             <a href="#aboutme">
               <li class="list-items">About me</li>
@@ -50,7 +50,7 @@
           </ul>
         </div>
       </header>
-      <main>
+      <main class="w-full">
         <h2
           id="aboutme"
           class="section-bar"
@@ -100,8 +100,8 @@
           </p>
         </div>
         <h2 id="stack" class="section-bar">Stack</h2>
-        <div class="grid items-center grid-flow-row grid-cols-3 gap-8 py-4 justify-items-center">
-          <article class="w-56 h-24 px-4 py-2 border rounded-md border-project_secondary">
+        <div class="grid items-center grid-flow-row grid-cols-3 gap-4 px-4 py-4 justify-items-center">
+          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
             <div class="font-bold text-center">Frontend Technologies</div>
             <div class="flex items-center justify-around py-4">
               <div >
@@ -121,7 +121,7 @@
               </div>
             </div>
           </article>
-          <article class="w-56 h-24 px-4 py-2 border rounded-md border-project_secondary">
+          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
             <div class="font-bold text-center">Backend and APIs</div>
             <div class="flex items-center justify-around py-4">
               <div >
@@ -141,7 +141,7 @@
               </div>
             </div>
           </article>
-          <article class="w-56 h-24 px-4 py-2 border rounded-md border-project_secondary">
+          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
             <div class="font-bold text-center">Databases & ORMs</div>
             <div class="flex items-center justify-around py-4">
               <div >
@@ -151,7 +151,7 @@
               </div>
               <div >
                 <abbr title="MongoDb">
-                  <iconify-icon icon="logos:mongodb" width="40" height="40"></iconify-icon>
+                  <iconify-icon icon="devicon:mongodb" width="30" height="30"></iconify-icon>
                 </abbr>
               </div>
               <div >
@@ -161,7 +161,7 @@
               </div>
             </div>
           </article>
-          <article class="w-56 h-24 px-4 py-2 border rounded-md border-project_secondary">
+          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
             <div class="font-bold text-center">Version Control and IDEs</div>
             <div class="flex items-center justify-around py-4">
               <div >
@@ -181,12 +181,12 @@
               </div>
             </div>
           </article>
-          <article class="w-56 h-24 px-4 py-2 border rounded-md border-project_secondary">
-            <div class="font-bold text-center">Deployment</div>
+          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
+            <div class="font-bold text-center">Deployment Platforms</div>
             <div class="flex items-center justify-around py-4">
               <div >
                 <abbr title="Azure">
-                  <iconify-icon icon="logos:microsoft-azure" width="25" height="25"></iconify-icon>
+                  <iconify-icon icon="logos:microsoft-azure" width="30" height="30"></iconify-icon>
                 </abbr>
               </div>
               <div >
@@ -201,7 +201,7 @@
               </div>
             </div>
           </article>
-          <article class="w-56 h-24 px-4 py-2 border rounded-md border-project_secondary">
+          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
             <div class="font-bold text-center">Internet of Things</div>
             <div class="flex items-center justify-around py-4">
               <div >
@@ -517,34 +517,36 @@
           </form>
         </div>
       </main>
-      <footer class="flex items-center justify-between px-16 py-4 space-x-8 bg-project_primary text-project_white">
-         <div>
+      <footer class="flex items-center justify-between w-full px-16 py-4 space-x-8 bg-project_primary text-project_white">
+         <div class="basis-2/5">
           <a href="mailto:gustavo.sanchez@gusanchefullstack.dev?subject=Contact request for fullstack developer">
-            <p class="font-semibold"><i class="fa-solid fa-envelope text-project_yellow"></i> gustavo.sanchez@gusanchefullstack.dev</p>
+            <p class="text-sm font-semibold"><i class="fa-solid fa-envelope text-project_yellow"></i> gustavo.sanchez@gusanchefullstack.dev</p>
           </a>
           
         </div>
-        <div><ul class="flex-col items-center justify-between">
-          <a href="#aboutme">
-            <li class="list-items">About me</li>
-          </a>
-          <a href="#projects">
-            <li class="list-items">Projects</li>
-          </a>
-          <a href="https://hashnode.com/@gusanchedev" target="_blank">
-            <li class="list-items">Blog</li>
-          </a>
-          <a href="#stack">
-            <li class="list-items">Stack</li>
-          </a>
-          <a href="#resources">
-            <li class="list-items">Resources</li>
-          </a>
-          <a href="#contact">
-            <li class="list-items">Contact</li>
-          </a>
-        </ul></div>
-        <div class="flex space-x-4 h-max">
+        <div class="basis-1/5">
+          <ul class="flex-col items-center justify-between">
+            <a href="#aboutme">
+              <li class="list-items">About me</li>
+            </a>
+            <a href="#projects">
+              <li class="list-items">Projects</li>
+            </a>
+            <a href="https://hashnode.com/@gusanchedev" target="_blank">
+              <li class="list-items">Blog</li>
+            </a>
+            <a href="#stack">
+              <li class="list-items">Stack</li>
+            </a>
+            <a href="#resources">
+              <li class="list-items">Resources</li>
+            </a>
+            <a href="#contact">
+              <li class="list-items">Contact</li>
+            </a>
+          </ul>
+        </div>
+        <div class="flex items-center justify-between gap-2 h-max basis-2/5">
           <a href="https://www.linkedin.com/in/gusanchefullstackdev/" target="_blank">
             <div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
           </a>
