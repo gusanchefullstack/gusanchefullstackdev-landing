@@ -23,7 +23,7 @@
   }
 
   .phase-title {
-    @apply text-lg font-semibold pb-8
+    @apply text-lg font-semibold pb-4
   }
 
   .social-icon {
