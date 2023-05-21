@@ -12,58 +12,58 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
   </head>
   <body>
-    <div class="px-8">
+    <div class="container">
       <header
-        class="flex items-center justify-between w-full px-4 py-2 bg-project_primary text-project_white"
+        class="bg-project_primary text-project_white"
       >
-        <div class="flex items-center justify-start space-x-4 basis-4/12">
+        <div class="flex items-center gap-4 p-4">
           <div>
             <i class="fa-solid fa-layer-group fa-2xl text-project_yellow"></i>
           </div>
           <div>
-            <h1 class="text-2xl font-bold tracking-widest">Gustavo Sanchez</h1>
-            <p class="text-lg font-extrabold tracking-widest">
+            <h1 class="font-semibold">Gustavo Sanchez</h1>
+            <p class="font-semibold">
               Fullstack Developer
             </p>
           </div>
         </div>
-        <div class="basis-8/12">
-          <ul class="flex space-x-4 text-lg font-semibold justify-evenly">
+        <div class="">
+          <ul class="hidden">
             <a href="#aboutme">
-              <li class="list-items">About me</li>
+              <li class="px-4">About me</li>
             </a>
             <a href="#projects">
-              <li class="list-items">Projects</li>
+              <li class="px-4">Projects</li>
             </a>
             <a href="https://hashnode.com/@gusanchedev" target="_blank">
-              <li class="list-items">Blog</li>
+              <li class="px-4">Blog</li>
             </a>
             <a href="#stack">
-              <li class="list-items">Stack</li>
+              <li class="px-4">Stack</li>
             </a>
             <a href="#resources">
-              <li class="list-items">Resources</li>
+              <li class="px-4">Resources</li>
             </a>
             <a href="#contact">
-              <li class="list-items">Contact</li>
+              <li class="px-4">Contact</li>
             </a>
           </ul>
         </div>
       </header>
-      <main class="w-full">
+      <main class="">
         <h2
           id="aboutme"
           class="section-bar"
         >
           About me
         </h2>
-        <div class="flex py-4 space-x-3">
+        <div class="">
           <img
-            class="w-1/3 overflow-hidden"
+            class=""
             src="gusanche_picture.jpg"
             alt="Gustavo Sanchez"
           />
-          <p class="w-1/3 py-4 pr-2 indent-6">
+          <p class="mx-4 my-4 indent-4">
             I am an electronics and telecommunications engineer graduated from
             the University of Cauca in Colombia, with 23 years of experience in
             pre-sales and sales areas. During the pandemic I wanted to take
@@ -72,18 +72,17 @@
             fundamentals of <span class="underline decoration-orange-500 decoration-wavy">HTML</span>, <span class="underline decoration-blue-400 decoration-wavy">CSS</span> and <span class="underline decoration-yellow-400 decoration-wavy">Javascript</span>. Then I started learning
             <span class="underline decoration-purple-500 decoration-wavy">Vite</span> (Frontend Tooling) and <span class="underline decoration-cyan-300 decoration-wavy">TailwindCSS</span>. <br />
           </p>
-          <p class="w-1/3 py-4 pr-4 indent-6">Now, I'm learning about <span class="underline decoration-green-600 decoration-wavy">node.js</span> and consuming APIs with JS and
+          <p class="mx-4 mb-4 indent-4">Now, I'm learning about <span class="underline decoration-green-600 decoration-wavy">node.js</span> and consuming APIs with JS and
             exploring some tools like <span class="underline decoration-black decoration-wavy">Prisma.io</span> (ORM), <span>Azure</span> stack for the
             development of applications in the cloud and databases such as
             <span class="underline decoration-green-500 decoration-wavy">MongoDB</span> and <span class="underline decoration-blue-500 decoration-wavy">PostgreSQL</span> for data storage required in the development
-            of full-stack applications. <br />
-              My medium-term goal is to be able to develop full-stack applications
+            of full-stack applications. My medium-term goal is to be able to develop full-stack applications
               for the Internet of Things (IoT) leveraging Azure IoT, <span class="underline decoration-green-700 decoration-wavy">Arduino</span> and <span class="underline decoration-blue-300 decoration-wavy">LoRaWAN</span>.
           </p>
         </div>
         <h2 id="projects" class="section-bar">Projects</h2>
         <div class="px-4 py-2">
-          <p class="pb-8">
+          <p class="mb-2">
             I've defined my own learning path based mainly in the <a class="font-medium" href="https://www.freecodecamp.org/learn" target="
              _blank">FreeCodeCamp</a>
             curriculum including the free challenges of <a class="font-medium" href="https://www.frontendmentor.io/" target="_blank">FrontendMentor.io</a> that you
@@ -100,10 +99,10 @@
           </p>
         </div>
         <h2 id="stack" class="section-bar">Stack</h2>
-        <div class="grid items-center grid-flow-row grid-cols-3 gap-4 px-4 py-4 justify-items-center">
-          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
-            <div class="font-bold text-center">Frontend Technologies</div>
-            <div class="flex items-center justify-around py-4">
+        <div class="grid grid-flow-row gap-8 p-4">
+          <article class="p-2 border rounded-md border-project_primary">
+            <div class="mb-4 text-xl font-semibold text-center">Frontend Technologies</div>
+            <div class="flex items-center justify-center gap-8">
               <div >
                 <abbr title="React">
                   <iconify-icon icon="skill-icons:react-dark" width="30" height="30"></iconify-icon>
@@ -121,9 +120,9 @@
               </div>
             </div>
           </article>
-          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
-            <div class="font-bold text-center">Backend and APIs</div>
-            <div class="flex items-center justify-around py-4">
+          <article class="p-2 border rounded-md border-project_primary">
+            <div class="mb-4 text-xl font-semibold text-center">Backend and APIs</div>
+            <div class="flex items-center justify-center gap-8">
               <div >
                 <abbr title="Nodejs">
                   <iconify-icon icon="logos:nodejs" width="30" height="30"></iconify-icon>
@@ -141,9 +140,9 @@
               </div>
             </div>
           </article>
-          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
-            <div class="font-bold text-center">Databases & ORMs</div>
-            <div class="flex items-center justify-around py-4">
+          <article class="p-2 border rounded-md border-project_primary">
+            <div class="mb-4 text-xl font-semibold text-center">Databases & ORMs</div>
+            <div class="flex items-center justify-center gap-8">
               <div >
                 <abbr title="Postgresql">
                   <iconify-icon icon="logos:postgresql" width="30" height="30"></iconify-icon>
@@ -161,9 +160,9 @@
               </div>
             </div>
           </article>
-          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
-            <div class="font-bold text-center">Version Control and IDEs</div>
-            <div class="flex items-center justify-around py-4">
+          <article class="p-2 border rounded-md border-project_primary">
+            <div class="mb-4 text-xl font-semibold text-center">Development Tools</div>
+            <div class="flex items-center justify-center gap-8">
               <div >
                 <abbr title="Git">
                   <iconify-icon icon="logos:git-icon" width="30" height="30"></iconify-icon>
@@ -181,9 +180,9 @@
               </div>
             </div>
           </article>
-          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
-            <div class="font-bold text-center">Deployment Platforms</div>
-            <div class="flex items-center justify-around py-4">
+          <article class="p-2 border rounded-md border-project_primary">
+            <div class="mb-4 text-xl font-semibold text-center">Deployment Platforms</div>
+            <div class="flex items-center justify-center gap-8">
               <div >
                 <abbr title="Azure">
                   <iconify-icon icon="logos:microsoft-azure" width="30" height="30"></iconify-icon>
@@ -201,9 +200,9 @@
               </div>
             </div>
           </article>
-          <article class="min-w-full px-4 py-2 border rounded-md border-project_secondary">
-            <div class="font-bold text-center">Internet of Things</div>
-            <div class="flex items-center justify-around py-4">
+          <article class="p-2 border rounded-md border-project_primary">
+            <div class="mb-4 text-xl font-semibold text-center">Internet of Things</div>
+            <div class="flex items-center justify-center gap-8">
               <div >
                 <abbr title="Arduino">
                   <iconify-icon icon="skill-icons:arduino" width="30" height="30"></iconify-icon>
@@ -223,9 +222,9 @@
           </article>
         </div>
         <h2 id="resources" class="section-bar">Resources</h2>
-        <div class="px-4 py-2">
-          <p class="py-2">These are articles and useful resources that I compiled in my learning process as a fullstack developer.</p>
-          <ul class="">
+        <div class="px-4 py-4">
+          <p class="">These are articles and useful resources that I compiled in my learning process as a fullstack developer.</p>
+          <ul class="py-2">
             <li><i class="fa-solid fa-file-lines fa-xs"></i> <a href="https://btholt.github.io/intro-to-web-dev-v2/intro" target="_blank" rel="noopener noreferrer">Complete intro to web development</a></li>
             <li><i class="fa-solid fa-file-lines fa-xs"></i> <a href="https://http2-explained.haxx.se/es" target="_blank" rel="noopener noreferrer">HTTP2 explained</a></li>
             <li><i class="fa-solid fa-file-lines fa-xs"></i> <a href="https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/" target="_blank" rel="noopener noreferrer">Color Theory for Designers, Part 1: The Meaning of Color</a></li>
@@ -239,22 +238,22 @@
           </ul>
         </div>
         <h2 id="contact" class="section-bar">Contact</h2>
-        <div class="px-4 py-4">
+        <div class="p-4">
           <form action="https://formspree.io/f/moqzzawr" method="POST">
-            <div class="flex gap-8">
-              <div class="flex flex-col w-1/2">
-                <label for="contactName" class="font-light">Name</label>
-                <input type="text" name="contactName" id="contactName" required class="px-4 py-2 rounded-md form-input peer/name">
+            <div class="">
+              <div class="">
+                <label for="contactName" class="block mt-2 font-light">Name</label>
+                <input type="text" name="contactName" id="contactName" required class="block w-full px-4 py-2 rounded-md form-input peer/name">
                 <p class="invisible mt-1 text-xs font-light text-pink-600 peer-invalid/name:visible">
                   Please provide a name
                 </p>
-                <label for="contactEmail" class="font-light">Email</label>
-                <input type="email" name="contactEmail" id="contactEmail" required class="px-4 py-2 rounded-md form-input peer/email">
+                <label for="contactEmail" class="block mt-2 font-light">Email</label>
+                <input type="email" name="contactEmail" id="contactEmail" required class="w-full px-4 py-2 rounded-md form-input peer/email">
                 <p class="invisible mt-1 text-xs font-light text-pink-600 peer-invalid/email:visible">
                   Please provide a valid email address
                 </p>
-                <label for="contactCountry" class="font-light">Country</label>
-                <select id="contactCountry" name="contactCountry" required class="px-4 py-2 rounded-md form-select peer/country">
+                <label for="contactCountry" class="block mt-2 font-light">Country</label>
+                <select id="contactCountry" name="contactCountry" required class="w-full px-4 py-2 text-sm rounded-md form-select peer/country">
                 <option value=""></option>
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
@@ -505,48 +504,47 @@
                   Please provide a valid country
                 </p>
               </div>
-              <div class="flex flex-col w-1/2">
-                <label for="contactMessage" class="font-light">Message</label>
-                <textarea name="contactMessage" id="contactMessage" required minlength="50" maxlength="300" placeholder="Please provide a message min 50 characters and max 300" class="h-full p-2 form-input peer/message placeholder:text-xs"></textarea>
+              <div class="">
+                <label for="contactMessage" class="block mt-2 font-light">Message</label>
+                <textarea name="contactMessage" id="contactMessage" required minlength="30" maxlength="300" rows="5" placeholder="Please provide a message min 30 characters and max 300" class="w-full h-full p-2 rounded-md form-input peer/message placeholder:text-xs"></textarea>
                 <p class="invisible mt-1 text-xs font-light text-pink-600 font text- peer-invalid/message:visible">
                   Please provide a message
                 </p>
-                <button class="py-1 mt-2 rounded-md bg-project_tertiary text-project_white hover:text-project_yellow" type="submit">Submit</button>
+                <button class="w-full py-2 mt-4 rounded-md bg-project_tertiary text-project_yellow" type="submit">Submit</button>
               </div>
             </div>
           </form>
         </div>
       </main>
-      <footer class="flex items-center justify-between w-full px-16 py-4 space-x-8 bg-project_primary text-project_white">
-         <div class="basis-2/5">
+      <footer class="bg-project_primary text-project_white">
+         <div class="flex items-start justify-center p-4">
           <a href="mailto:gustavo.sanchez@gusanchefullstack.dev?subject=Contact request for fullstack developer">
-            <p class="text-sm font-semibold"><i class="fa-solid fa-envelope text-project_yellow"></i> gustavo.sanchez@gusanchefullstack.dev</p>
-          </a>
-          
+            <p class="text-sm font-light"><i class="fa-solid fa-envelope text-project_white"></i> gustavo.sanchez@gusanchefullstack.dev</p>
+          </a>          
         </div>
-        <div class="basis-1/5">
-          <ul class="flex-col items-center justify-between">
+        <div class="">
+          <ul class="hidden">
             <a href="#aboutme">
-              <li class="list-items">About me</li>
+              <li class="list-item-footer">About</li>
             </a>
             <a href="#projects">
-              <li class="list-items">Projects</li>
+              <li class="list-item-footer">Projects</li>
             </a>
             <a href="https://hashnode.com/@gusanchedev" target="_blank">
-              <li class="list-items">Blog</li>
+              <li class="list-item-footer">Blog</li>
             </a>
             <a href="#stack">
-              <li class="list-items">Stack</li>
+              <li class="list-item-footer">Stack</li>
             </a>
             <a href="#resources">
-              <li class="list-items">Resources</li>
+              <li class="list-item-footer">Resources</li>
             </a>
             <a href="#contact">
-              <li class="list-items">Contact</li>
+              <li class="list-item-footer">Contact</li>
             </a>
           </ul>
         </div>
-        <div class="flex items-center justify-between gap-2 h-max basis-2/5">
+        <div class="flex items-center justify-center gap-4 pt-2 pb-4">
           <a href="https://www.linkedin.com/in/gusanchefullstackdev/" target="_blank">
             <div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
           </a>

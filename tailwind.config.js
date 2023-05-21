@@ -2,6 +2,9 @@
 export default {
   content: ["./*.html", "./*.js"],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         project_primary: "#25316D",

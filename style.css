@@ -11,9 +11,21 @@
     font-family: 'Fira Sans', sans-serif;
     background-color: #F8F8F8;
   }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @layer components {
+
+  .list-item-footer {
+    @apply border-2 rounded-md border-project_white p-2 font-extralight text-xs
+  }
+  .list-item-footer:hover {
+    @apply cursor-pointer text-project_yellow
+  }
   .list-items:hover {
     @apply cursor-pointer text-project_yellow
   }
@@ -23,11 +35,11 @@
   }
 
   .phase-title {
-    @apply text-lg font-semibold pb-4
+    @apply text-lg font-medium my-2
   }
 
   .social-icon {
-    @apply flex items-center justify-center p-2 border-2 rounded-full border-project_tertiary
+    @apply flex items-center justify-center p-3 rounded-full border-2 border-project_tertiary
   }
 
   .social-icon:hover {
