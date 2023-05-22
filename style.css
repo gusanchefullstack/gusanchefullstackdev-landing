@@ -21,12 +21,12 @@
 @layer components {
 
   .list-item-footer {
-    @apply border-2 rounded-md border-project_white p-2 font-extralight text-xs
+    @apply font-extralight text-base
   }
   .list-item-footer:hover {
-    @apply cursor-pointer text-project_yellow
+    @apply cursor-pointer text-project_yellow 
   }
-  .list-items:hover {
+  .list-item-header:hover {
     @apply cursor-pointer text-project_yellow
   }
 
