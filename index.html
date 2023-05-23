@@ -48,10 +48,30 @@
               <li class="px-4 list-item-header">Contact</li>
             </a>
           </ul>
-          <div class="text-center hover:text-project_yellow hover:cursor-pointer lg:hidden"><i class="fa-solid fa-bars"></i></div>
+          <div id="mobileMenuIcon" class="text-center hover:text-project_yellow hover:cursor-pointer lg:hidden"><i id="menu-graph" class="fa-solid fa-bars"></i></div>
         </div>
       </header>
       <main class="">
+        <ul class="hidden" id="mobileMenuList">
+          <a href="#aboutme">
+            <li class="list-item-header-mobile">About me</li>
+          </a>
+          <a href="#projects">
+            <li class="list-item-header-mobile">Projects</li>
+          </a>
+          <a href="https://hashnode.com/@gusanchedev" target="_blank">
+            <li class="list-item-header-mobile">Blog</li>
+          </a>
+          <a href="#stack">
+            <li class="list-item-header-mobile">Stack</li>
+          </a>
+          <a href="#resources">
+            <li class="list-item-header-mobile">Resources</li>
+          </a>
+          <a href="#contact">
+            <li class="list-item-header-mobile">Contact</li>
+          </a>
+        </ul>
         <h2
           id="aboutme"
           class="section-bar"
@@ -590,7 +610,7 @@
                 <p class="invisible mt-1 text-xs font-light text-pink-600 font text- peer-invalid/message:visible">
                   Please provide a message
                 </p>
-                <button class="w-full py-2 mt-4 rounded-md bg-project_tertiary text-project_yellow md:mt-6 lg:mt-2" type="submit">Submit</button>
+                <button class="w-full py-2 mt-4 rounded-md bg-project_tertiary hover:text-project_white text-project_yellow md:mt-6 lg:mt-2" type="submit">Submit</button>
               </div>
             </div>
           </form>

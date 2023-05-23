@@ -29,7 +29,15 @@
   .list-item-header:hover {
     @apply cursor-pointer text-project_yellow
   }
-
+  .mobile-menu {
+    @apply flex items-center justify-center gap-1 bg-project_primary text-project_white pb-2
+  }
+  .list-item-header-mobile {
+    @apply border border-project_white px-2 rounded-md font-extralight text-xs
+  }
+  .list-item-header-mobile:hover {
+    @apply text-project_yellow
+  }
   .section-bar {
     @apply w-full px-4 py-2 text-lg font-bold bg-project_secondary text-project_white
   }
